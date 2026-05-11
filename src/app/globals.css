@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* Das dunkle Türkis/Grün aus deiner Schildkröte */
+  --color-sage-50: #f4f5f4;
+  --color-sage-100: #e4e7e5;
+  --color-sage-800: #3a4b4b; 
+  --color-sage-900: #2D3A3A; /* Exakte Farbe deines Logo-Schriftzugs (Dunkles Teal) */
+
+  /* Das Rosa aus deinem Logo */
+  --color-rose-300: #d29ca9;
+  --color-rose-400: #C58695; /* Exakte Rosa-Farbe aus deinem Logo */
+  --color-rose-500: #b0707f;
+  
+  /* Der helle Hintergrund */
+  --color-sand-50: #fdfdfc;
+  --color-sand-100: #f8f7f5;
+  --color-sand-200: #efece5;
+}
