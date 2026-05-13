@@ -42,107 +42,42 @@ const diagnostics = [
   }
 ]
 
-// --- DATEN FÜR BEHANDLUNGEN ---
+// --- DATEN FÜR BEHANDLUNGEN (Korrigierte Dateiendungen) ---
 const treatments = [
   {
-    title: "Infusion",
-    description: "Infusionen sind Lösungen, die in den Körper eingebracht werden, um bestimmte Medikamente oder Nährstoffe zu verabreichen. Es wird bei einer Vene im Arm oder in der Hand gelegt. Je nach Behandlungsziel nutzen wir Infusionen mit Mikronährstoffen, Ozon, Chelatbildnern, homöopathischen Mitteln, Basenmischungen oder Procain (Lokalanästhetikum).",
-    image: "/images/behandlung-1.jpg"
+    title: "Osteopathie & Manuelle Medizin",
+    description: "Strukturelle Heilung für den Bewegungsapparat: Wir kombinieren Osteopathie und Manuelle Therapie mit der Autonomen Haltungsregulation nach Norbert Fuhr (AHNF). Durch spezifische Handgriffe lösen wir Gelenkblockaden und regulieren das autonome Nervensystem, um das Zusammenspiel von Muskeln und Gelenken nachhaltig zu optimieren.",
+    image: "/behandlungen/1.png" // War vorher .jpg, ist in deinem Ordner aber ein .png
   },
   {
-    title: "Ozon-Therapie",
-    description: "Die Ozontherapie ist eine alternative medizinische Behandlungsmethode, bei der medizinisches Ozon zur Behandlung von verschiedenen Gesundheitsproblemen eingesetzt wird. Als Eigenblutbehandlung wird dem Patienten Blut entnommen, mit einem Ozon-Sauerstoffgemisch versetzt und intravenös zurückgespritzt. Bei Verletzungen wird Blut entnommen, mit Ozon vermengt und injiziert. Die Therapie verbessert die Sauerstoffversorgung, stärkt das Immunsystem und reduziert Entzündungen.",
-    image: "/images/behandlung-2.jpg"
+    title: "Regenerative Medizin & Infusionen",
+    description: "Zelluläre Erneuerung von innen: Unsere Infusionstherapien nutzen Mikronährstoffe, Ozon und Chelatbildner zur Entgiftung und Stärkung. Die Ozon-Therapie (Eigenblutbehandlung) verbessert die Sauerstoffversorgung und Zellfunktion, während CO₂-Trockenbäder den Stoffwechsel anregen und die Wundheilung fördern.",
+    image: "/behandlungen/2.jpg"
   },
   {
-    title: "CO₂-Bad",
-    description: "Das CO₂-Bad ist auch als CO₂-Trockenbad-Therapie (CAT) bekannt. Dabei wird die Haut mit Kohlendioxid (CO₂) angereichertem Gas behandelt – also trocken gebadet. Diese Behandlung fördert die Durchblutung, regt den Stoffwechsel an und hat positive Effekte auf das Herz-Kreislauf-System. Es wird zur Entspannung, zur Heilung von Wunden oder zur Linderung von Hauterkrankungen eingesetzt.",
-    image: "/images/behandlung-3.jpg"
+    title: "Traditionelle Chinesische Medizin",
+    description: "Harmonisierung des Qi: Basierend auf der Yin-Yang-Lehre nutzen wir Akupunktur, Kräutermedizin und Moxibustion. Durch das Setzen feiner Nadeln entlang der Meridiane lösen wir energetische Blockaden und stellen das natürliche Gleichgewicht im Körper wieder her.",
+    image: "/behandlungen/3.png"
   },
   {
-    title: "Ganzheitliche Therapeutische Massage",
-    description: "Entspannungs- und lösende Massagetechniken werden mit energetischer Mobilisation und der Anwendung von Bachblüten kombiniert. Sie unterstützt das körperliche und energetische Gleichgewicht in einem ganzheitlich betreuenden Umfeld.",
-    image: "/images/behandlung-4.jpg"
+    title: "Ganzheitliche Körperarbeit",
+    description: "Tiefe Lösung auf allen Ebenen: Therapeutische Massagen, Kraniosakrale Therapie und Wärmetherapie verschmelzen zu einer Einheit. Wir harmonisieren den Liquorpuls und lösen physische sowie emotionale Traumata im Gewebe, um die Selbstheilungskräfte zu aktivieren.",
+    image: "/behandlungen/4.jpg"
   },
   {
-    title: "Manuelle Therapie",
-    description: "Die Manuelle Therapie ist eine spezialisierte Form der physiotherapeutischen Behandlung, die darauf abzielt, Funktionsstörungen des Bewegungsapparates zu diagnostizieren, zu behandeln und zu verbessern. Es werden spezifische Handgriffe eingesetzt, um Gelenkblockaden, Muskelverspannungen sowie Bewegungseinschränkungen zu lösen und Schmerzen zu lindern.",
-    image: "/images/behandlung-5.jpg"
+    title: "Energetische Medizin",
+    description: "Heilung durch Schwingung: Mittels Reiki, Reconnective Healing und Aurareinigung klären wir das feinstoffliche Energiefeld. Das kinesiologische Austesten dient uns dabei als Bio-Feedback, um individuelle Stressfaktoren und energetische Ungleichgewichte präzise zu identifizieren.",
+    image: "/behandlungen/5.png"
   },
   {
-    title: "Akupunktur",
-    description: "Akupunktur ist eine Behandlungsmethode der Traditionellen Chinesischen Medizin (TCM), bei der feine Nadeln an Akupunkturpunkten platziert werden. Durch das Setzen der Nadeln wird der Energiefluss im Körper reguliert, Blockaden gelöst und das Gleichgewicht von Yin und Yang wiederhergestellt. Sie wird zur Behandlung von Schmerzen, Stress, Schlafstörungen und vielem mehr eingesetzt.",
-    image: "/images/behandlung-6.jpg"
-  },
-  {
-    title: "Traditionelle Chinesische Medizin (TCM)",
-    description: "Die TCM ist ein ganzheitliches System, das auf dem Gleichgewicht des Qi (Lebensenergie) im Körper basiert. Sie nutzt Prinzipien wie Yin und Yang sowie die Fünf-Elemente-Theorie. Zu den Behandlungsmethoden gehören Akupunktur, Kräutermedizin, Moxibustion und Ernährungstherapie. Die Diagnose erfolgt über Puls, Zunge und Anamnese.",
-    image: "/images/behandlung-7.jpg"
-  },
-  {
-    title: "AHNF",
-    description: "Die Autonome Haltungsregulation nach Norbert Fuhr (AHNF) ist eine spezifische Methode zur Behandlung von muskulären Dysbalancen und Haltungsproblemen. Die Methode konzentriert sich darauf, das autonome Nervensystem zu regulieren, um das Zusammenspiel von Muskeln, Gelenken und dem Nervensystem zu optimieren. Es sind Techniken aus manueller Therapie, Osteopathie und Akupressur enthalten.",
-    image: "/images/behandlung-8.jpg"
-  },
-  {
-    title: "Kinesiologisches Austesten",
-    description: "Beim kinesiologischen Austesten handelt es sich um eine Technik, bei der Muskeltests verwendet werden, um Informationen über den energetischen Zustand des Körpers zu erhalten. Durch das Erfassen unbewusster Veränderungen im Muskeltonus können wir erfahren, welche Substanzen, Situationen oder Objekte gut oder schlecht für das eigene System sind.",
-    image: "/images/behandlung-9.jpg"
+    title: "Mentale Transformation",
+    description: "Befreiung von inneren Blockaden: Wir nutzen Hypnose, Logosynthese und systemische Aufstellungen, um belastende Gedankenmuster und Traumata aufzulösen. Unterstützt durch Gebetsheilung und Mantras lenken wir Energie neu, um positive Veränderungen im Fühlen und Handeln zu ermöglichen.",
+    image: "/behandlungen/6.png" // War vorher .jpg, ist in deinem Ordner aber ein .png
   },
   {
     title: "Neuraltherapie",
-    description: "Die Neuraltherapie beruht auf der Annahme, dass Störungen im vegetativen Nervensystem zu Beschwerden führen. Durch gezielte Injektionen eines lokalen Betäubungsmittels an Störfeldern oder Narben wird die elektrische Spannung reguliert. Sie zielt darauf ab, gestörte Regulationskreisläufe zu normalisieren und das vegetative Nervensystem zu harmonisieren.",
-    image: "/images/behandlung-10.jpg"
-  },
-  {
-    title: "Logosynthese",
-    description: "Logosynthese ist eine Therapiemethode, die darauf abzielt, belastende Gedanken, Emotionen und Blockaden durch das gezielte Lenken von Energie mithilfe von Worten aufzulösen. Es werden spezifische Sätze verwendet, um fixierte Energien zu transformieren und loszulassen. Dies ermöglicht positive Veränderungen im Denken, Fühlen und Handeln.",
-    image: "/images/behandlung-11.jpg"
-  },
-  {
-    title: "Hypnose",
-    description: "Hypnose ist ein Zustand erhöhter Aufmerksamkeit, Konzentration und suggestibler Trance, der durch tiefe Entspannung erreicht wird. In diesem Zustand ist das Unterbewusstsein besonders empfänglich für positive Veränderungen. Hypnose ist keine Kontrolle des Geistes, sondern eine geführte Technik zur Erreichung mentaler Entspannung und Heilung.",
-    image: "/images/behandlung-12.jpg"
-  },
-  {
-    title: "Reiki",
-    description: "Der Begriff 'Reiki' stammt aus dem Japanischen und bedeutet 'universelle Lebensenergie'. Die Energie wird über die Hände der Praktizierenden an den Empfänger geleitet. Durch sanftes Auflegen der Hände auf Körperregionen oder Chakras werden die Energien harmonisiert, Blockaden gelöst und das Gleichgewicht von Körper, Geist und Seele wiederhergestellt.",
-    image: "/images/behandlung-13.jpg"
-  },
-  {
-    title: "Kraniosakrale Therapie",
-    description: "Eine sanfte, manuelle Behandlungsmethode, die das craniosakrale System harmonisiert und Blockaden im Schädel-, Wirbelsäulen- und Kreuzbeinbereich löst. Sie unterstützt den Fluss der Hirn- und Rückenmarksflüssigkeit, um Selbstheilungskräfte zu aktivieren. Sie wird bei Kopfschmerzen, Rückenschmerzen, Stress oder Traumata eingesetzt.",
-    image: "/images/behandlung-14.jpg"
-  },
-  {
-    title: "Aurareinigung",
-    description: "Die Aurareinigung ist ein spiritueller Prozess, bei dem energetische Blockaden oder Störungen in der menschlichen Aura, dem feinstofflichen Energiefeld um den Körper herum, gelöst und gereinigt werden. Anschließend wird die Aura wieder mit frischer Energie aufgeladen.",
-    image: "/images/behandlung-15.jpg"
-  },
-  {
-    title: "Gebetsheilung",
-    description: "Die Gebetsheilung, auch Besprechen genannt, ist eine Form der Energie- und Informations-Übertragung durch Gebete aus verschiedenen Weltreligionen. In der Regel hält die Behandlerin dabei die Hand auf die erkrankte Stelle und rezitiert leise das Heilgebet, dessen Energie über die Hände weitergegeben wird.",
-    image: "/images/behandlung-16.jpg"
-  },
-  {
-    title: "Aufstellungen",
-    description: "Aufstellungen werden eingesetzt, um tiefere Einsichten zu gewähren, Hindernisse zu lösen und emotionale Heilung zu unterstützen. Im Rahmen der Therapie werden Schmerzen, Blockaden oder Konflikte als Energiefeld dargestellt. Hiermit können wir abstrakte Probleme greifbar machen, um sie zu verstehen und aufzulösen.",
-    image: "/images/behandlung-17.jpg"
-  },
-  {
-    title: "Mantras",
-    description: "Mantras sind heilige Silben, Wörter oder Klänge. Wir nutzen sie als indische Heiltechnik, bei der man vedische Gebete singt oder rezitiert, um eine bestimmte Energie oder Information in den Körper zu geben. Die Übertragung wird meistens zwischen den Augenbrauen durch die Finger geleitet.",
-    image: "/images/behandlung-18.jpg"
-  },
-  {
-    title: "Reconnective Healing",
-    description: "Bei Reconnective Healing wird durch die Übertragung von hochfrequenten Energie- und Lichtschwingungen eine Heilungsreaktion ausgelöst. Energetische Schwingungen werden erzeugt, bis der Behandelte in Verbindung mit der eigenen ursprünglichen Schwingung steht. Dies ermöglicht ein tiefes Gefühl des Geordnet-Seins und der Balance.",
-    image: "/images/behandlung-20.jpg"
-  },
-  {
-    title: "Osteopathie",
-    description: "Die Osteopathie ist eine alternative Methode, die die Gesundheit durch manuelle Manipulation von Muskeln, Gelenken und Geweben verbessert. Sie basiert auf der Idee, dass Struktur und Funktion eng verbunden sind. Das Ziel ist es, das Gleichgewicht im Körper wiederherzustellen und die Selbstheilungskräfte zu aktivieren.",
-    image: "/images/behandlung-21.jpg"
+    description: "Regulation des Nervensystems: Durch gezielte Injektionen lokaler Betäubungsmittel an Störfeldern oder Narben normalisieren wir gestörte Regulationskreisläufe. Diese Methode dient als effektive Brücke zur Behandlung chronischer Schmerzen und Entzündungen über das vegetative Nervensystem.",
+    image: "/behandlungen/7.png"
   }
 ]
 
@@ -150,7 +85,6 @@ export default function BehandlungenPage() {
   const [activeDiag, setActiveDiag] = useState(0)
   const diagListRef = useRef<HTMLDivElement>(null)
 
-  // NEU: Zustand für das große Modal bei den Behandlungen
   const [selectedTreat, setSelectedTreat] = useState<number | null>(null)
 
   useEffect(() => {
@@ -165,7 +99,6 @@ export default function BehandlungenPage() {
     }
   }, [activeDiag])
 
-  // Scrollen auf der Seite deaktivieren, wenn das Modal offen ist
   useEffect(() => {
     if (selectedTreat !== null) {
       document.body.style.overflow = 'hidden'
@@ -220,7 +153,7 @@ export default function BehandlungenPage() {
                   }`}
                 >
                   <div className={`relative w-10 h-10 shrink-0 transition-transform duration-500 ${isActive ? 'scale-110' : 'group-hover:scale-110'}`}>
-                    <Image src={item.icon} alt={item.title} fill className={`object-contain transition-all duration-500 ${isActive ? 'brightness-0 invert' : ''}`} />
+                    <Image src={item.icon} alt={item.title} fill sizes="40px" className={`object-contain transition-all duration-500 ${isActive ? 'brightness-0 invert' : ''}`} />
                   </div>
                   <h3 className={`font-serif text-lg transition-colors duration-500 z-10 ${isActive ? 'text-white' : 'text-[#2D3A3A]'}`}>
                     {item.title}
@@ -238,7 +171,7 @@ export default function BehandlungenPage() {
               <AnimatePresence mode="wait">
                 <motion.div key={activeDiag} initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -15 }} transition={{ duration: 0.4 }}>
                   <div className="relative w-24 h-24 md:w-28 md:h-28 mb-8 opacity-20">
-                     <Image src={diagnostics[activeDiag].icon} alt={diagnostics[activeDiag].title} fill className="object-contain" />
+                     <Image src={diagnostics[activeDiag].icon} alt={diagnostics[activeDiag].title} fill sizes="(max-width: 768px) 96px, 112px" className="object-contain" />
                   </div>
                   <h3 className="font-serif text-3xl md:text-4xl text-[#2D3A3A] mb-8 leading-tight">{diagnostics[activeDiag].title}</h3>
                   <div className="w-16 h-1 bg-[#C58695] mb-8 rounded-full" />
@@ -251,7 +184,7 @@ export default function BehandlungenPage() {
       </section>
 
       {/* ==================================================== */}
-      {/* 2. BEHANDLUNGEN SECTION (Magische Wow-Galerie)         */}
+      {/* 2. BEHANDLUNGEN SECTION                                */}
       {/* ==================================================== */}
       <section className="bg-[#F9FAFA] py-32 px-6 rounded-[50px] mx-4 md:mx-8 relative">
         <div className="max-w-7xl mx-auto">
@@ -259,20 +192,24 @@ export default function BehandlungenPage() {
             Mögliche Behandlungen
           </h2>
 
-          {/* Das edle Bilder-Raster */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="flex flex-wrap justify-center gap-6">
             {treatments.map((treatment, index) => (
               <motion.div
                 key={index}
-                layoutId={`card-${index}`} // Das ist das Geheimnis für die Flug-Animation
+                layoutId={`card-${index}`}
                 onClick={() => setSelectedTreat(index)}
-                className="group cursor-pointer relative h-[320px] rounded-[30px] overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-500"
+                className="group cursor-pointer relative h-[320px] w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] xl:w-[calc(25%-18px)] rounded-[30px] overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-500"
               >
                 <motion.div className="absolute inset-0" layoutId={`image-${index}`}>
-                  {/* Platzhalter-Hintergrund, solange du noch keine Bilder hast */}
-                  <div className="w-full h-full bg-[#E5EAE7]">
-                     {/* Hier später einkommentieren, wenn du Bilder hast: */}
-                     {/* <Image src={treatment.image} alt={treatment.title} fill className="object-cover transition-transform duration-700 group-hover:scale-105" /> */}
+                  {/* HIER WURDE "relative" HINZUGEFÜGT */}
+                  <div className="relative w-full h-full bg-[#E5EAE7]">
+                     <Image 
+                       src={treatment.image} 
+                       alt={treatment.title} 
+                       fill 
+                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                       className="object-cover transition-transform duration-700 group-hover:scale-105" 
+                     />
                   </div>
                 </motion.div>
 
@@ -290,12 +227,11 @@ export default function BehandlungenPage() {
       </section>
 
       {/* ==================================================== */}
-      {/* 3. DAS "WOW" MODAL (Das aufklappende Fenster)          */}
+      {/* 3. DAS "WOW" MODAL                                     */}
       {/* ==================================================== */}
       <AnimatePresence>
         {selectedTreat !== null && (
           <>
-            {/* Abgedunkelter Glas-Hintergrund */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -304,22 +240,23 @@ export default function BehandlungenPage() {
               className="fixed inset-0 bg-[#2D3A3A]/60 backdrop-blur-md z-[100] cursor-pointer"
             />
 
-            {/* Das fliegende Fenster */}
             <div className="fixed inset-0 z-[101] flex items-center justify-center p-4 md:p-10 pointer-events-none">
               <motion.div
                 layoutId={`card-${selectedTreat}`}
                 className="bg-white rounded-[40px] overflow-hidden shadow-2xl w-full max-w-5xl max-h-[90vh] flex flex-col md:flex-row pointer-events-auto"
               >
-                {/* Linke Seite: Das Bild */}
                 <motion.div layoutId={`image-${selectedTreat}`} className="relative w-full md:w-5/12 h-64 md:h-auto shrink-0 bg-[#E5EAE7]">
-                   {/* Hier später einkommentieren: */}
-                   {/* <Image src={treatments[selectedTreat].image} alt={treatments[selectedTreat].title} fill className="object-cover" /> */}
+                   <Image 
+                     src={treatments[selectedTreat].image} 
+                     alt={treatments[selectedTreat].title} 
+                     fill 
+                     sizes="(max-width: 768px) 100vw, 50vw"
+                     className="object-cover" 
+                   />
                 </motion.div>
 
-                {/* Rechte Seite: Der Text, der weich einblendet */}
                 <div className="w-full md:w-7/12 p-8 md:p-16 flex flex-col relative overflow-y-auto bg-[#FDFDFC]">
                   
-                  {/* Schließen Button */}
                   <button
                     onClick={() => setSelectedTreat(null)}
                     className="absolute top-6 right-6 w-10 h-10 bg-neutral-100 rounded-full flex items-center justify-center text-neutral-500 hover:bg-[#C58695] hover:text-white transition-colors"
