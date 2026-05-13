@@ -69,8 +69,17 @@ export function Footer() {
           <div className="text-center lg:text-left pt-2 lg:pt-6">
             <h4 className="font-sans font-bold text-white mb-4 text-sm tracking-wide">Adresse</h4>
             <div className="text-[#C58695] text-sm font-medium leading-relaxed">
-              Pariser Straße 21<br />
+              <a 
+                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.1678505500693!2d13.431671977239384!3d52.51231653715877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e4663e2672b%3A0xc3911f938b826b2b!2sFranz-Mehring-Platz%201%2C%2010243%20Berlin!5e0!3m2!1ses!2sde!4v1709923845000!5m2!1ses!2sde1" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors cursor-pointer"
+              >
+                Pariser Straße 21<br />
               10707 Berlin
+              </a>
+              
+              
             </div>
           </div>
 

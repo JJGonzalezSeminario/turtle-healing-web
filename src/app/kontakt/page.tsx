@@ -95,7 +95,8 @@ export default function KontaktPage() {
               <Image 
                 src="/images/doctolib1.png" 
                 alt="Terminbuchung bei Turtle Healing" 
-                fill 
+                fill
+                priority
                 className="object-cover transition-transform duration-[3000ms] group-hover:scale-105"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
